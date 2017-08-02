@@ -50,7 +50,7 @@ li {
   font-weight: bold; }
 
 .green {
-  color: #19f;
+  color: #00b500;
   font-weight: bold; }
 
 .ds {
@@ -424,7 +424,7 @@ li {
   box-shadow: 0 0 5px #ccc;
   border: 1px solid #f2f2f2;
   -moz-border-radius: 10px;
-  border-radius: 10px; }
+  border-radius: 0px; }
 
 .reduce {
   float: left;
@@ -453,29 +453,19 @@ li {
   border-left: none;
   cursor: pointer;
   background: url("../images/add.gif") center center no-repeat; }
+
 #nav {
-  width: 100%;
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  z-index: 1000;
-  background: #fafafa; }
-#navTop {
   width: 100%;
   position: fixed;
   left: 0px;
   top: 0px;
   z-index: 1000;
-  background: #49bed6; 
-  color: #fff;
-  font-size:20px;
-  text-align: center;
-  line-height: 50px;
-}
+  background: #fafafa; }
   #nav .navlist {
     position: relative;
     height: 50px; }
     #nav .navlist li {
+      background: #fff;
       float: left;
       margin: 0;
       height: 50px;
@@ -484,7 +474,7 @@ li {
         width: 100%;
         display: inline-block;
         height: 50px;
-        border-right: 1px solid #EAEAEA;
+       /*  border-right: 1px solid #EAEAEA; */
         text-align: center; }
         #nav .navlist li a span {
           display: inline-block;
@@ -522,7 +512,6 @@ li {
         text-align: center;
         font-size: 1.2rem; }
 
-
 .indexslider {
   position: relative;
   top: 51px;
@@ -548,12 +537,12 @@ li {
         width: 100px;
         height: 30px;
         line-height: 30px;
-        background-color: #19f;
+        background-color: #15bd10;
         color: #fff;
         border-radius: 20px;
         display: block;
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 7px;
         margin-right: 5px;
         float: right; }
@@ -562,7 +551,7 @@ li {
         height: 45px;
         float: left; }
         .indexslider #topSlider .topzhezhao .leftslidecontent p {
-          line-height: 40px;
+          line-height: 20px;
           display: block;
           width: 200px;
           overflow: hidden;
@@ -571,7 +560,7 @@ li {
           color: #fff;
           text-indent: 12px; }
           .indexslider #topSlider .topzhezhao .leftslidecontent p span {
-            color: #19f; }
+            color: #15bd10; }
 
 .loaddiv {
   width: 100%;
@@ -615,17 +604,17 @@ li {
       .productul li a .triangle-topleft {
         width: 0;
         height: 0;
-        border-top: 60px solid #ec4c14;
+        border-top: 60px solid transparent;
         border-right: 60px solid transparent;
         position: relative;
         z-index: 990;
         cursor: pointer; }
       .productul li a .rexiao {
-        border-top-color: #d50806; }
+        border-top-color: transparent; }
       .productul li a .xiangou {
-        border-top-color: #ff7301; }
+        border-top-color: transparent; }
       .productul li a .zhuanshu {
-        border-top-color: #1aa818; }
+        border-top-color: transparent; }
       .productul li a .shuxing {
         position: relative;
         z-index: 999;
@@ -674,7 +663,7 @@ li {
           margin-top: 10px;
           font-size: 14px;
           color: #4a4a4a; }
-.productul li a .no—bg{border-top:60px solid transparent }
+
 .recommendcontent {
   width: 99%;
   overflow: hidden;
@@ -821,7 +810,7 @@ li {
     width: 100%;
     padding-bottom: 60px; }
     .cart_content .cartlist li {
-      margin: 1rem; }
+      margin: 1rem 0; }
       .cart_content .cartlist li a {
         display: block;
         overflow: hidden;
@@ -864,7 +853,7 @@ li {
   width: 100%;
   left: 0px;
   position: fixed;
-  bottom: 60px;
+  bottom: 0px;
   height: 50px;
   z-index: 10000;
   margin: 0 auto;
@@ -1392,6 +1381,7 @@ li {
   height: 100px;
   background-size: contain; }
 
+
 .handle a {
   margin-right: 5px; }
 
@@ -1566,7 +1556,7 @@ li {
   font-size: 1.6rem;
   text-align: center;
   color: #fff;
-  width: 95%;
+  width: 25%;
   margin: 10px auto; }
 
 .quick_register {
